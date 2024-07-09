@@ -6,6 +6,7 @@
   --dark-of-point-color: #131313;
   --intro-title: #ccc;
   --dark-card: #343434;
+  --gray: #cccccc;
 }
 
 body {
@@ -34,8 +35,20 @@ ul {
   background-color: var(--theme_bright);
 }
 
+.text-left {
+  text-align: start;
+}
+
 .text-right {
   text-align: right;
+}
+
+.text-right:last-of-type {
+  margin: 0 24px 0 0;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .text__bold {
