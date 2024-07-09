@@ -1,0 +1,28 @@
+.intro {
+  padding: 30px 20px 26px 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.intro__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.intro__title-wrap {
+  display: block;
+  font-size: 16px;
+  line-height: 120%;
+  color: var(--intro-title);
+}
+
+.intro__time {
+  white-space: nowrap;
+}
+
+.intro__main-text {
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--white-of-point-color);
+}

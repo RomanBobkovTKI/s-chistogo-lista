@@ -1,0 +1,27 @@
+.cover {
+  padding: 7px 0 0 20px;
+  min-height: 221px;
+  background-image: url('../images/cover.svg');
+  background-size: 94% auto;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.cover__title {
+  font-family: 'EB Garamond', sans-serif;
+  font-size: 72px;
+  line-height: 100%;
+  font-weight: 400;
+}
+
+.cover__title span {
+  display: block;
+}
+
+.padding__46 {
+  padding: 0 0 0 46px;
+}
+
+.padding__154 {
+  padding: 0 0 0 154px;
+}

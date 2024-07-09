@@ -1,0 +1,51 @@
+:root {
+  --white-color: white;
+  --theme-dark: #000;
+  --theme_bright: #fee42a;
+  --white-of-point-color: #f5f5f5;
+  --dark-of-point-color: #131313;
+  --intro-title: #ccc;
+  --dark-card: #343434;
+}
+
+body {
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  color: var(--white-color);
+  font-style: normal;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.content-section {
+  box-sizing: border-box;
+  width: 360px;
+  margin: 0 auto;
+}
+
+.content-section_theme_dark {
+  background-color: var(--theme-dark);
+}
+
+.content-section_theme_bright {
+  background-color: var(--theme_bright);
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text__bold {
+  font-weight: 700;
+}
+
+.white-of-point-color {
+  color: var(--white-of-point-color);
+}
+
+.dark-of-point-color {
+  color: var(--dark-of-point-color);
+}
