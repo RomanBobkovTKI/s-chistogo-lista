@@ -1,0 +1,30 @@
+.how-to {
+  padding: 40px 20px 60px 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+
+.how-to__header {
+  font-family: 'EB Garamond', sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 115%;
+  color: var(--white-of-point-color);
+}
+
+.how-to__header-wrapper {
+  display: block;
+}
+
+.how-to-text-wrapper {
+  color: var(--white-of-point-color);
+  font-size: 20px;
+  line-height: 135%;
+}
+
+.how-to__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}

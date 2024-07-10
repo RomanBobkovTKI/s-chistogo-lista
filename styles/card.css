@@ -1,0 +1,56 @@
+.card {
+  border-radius: 30px;
+  min-height: 100px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.card_theme_dark {
+  background-color: var(--dark-card);
+}
+
+.card_theme_bright {
+  background-color: var(--theme_bright);
+}
+
+.card__author {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  align-items: flex-start;
+}
+
+.card__author-photo {
+  width: 100px;
+  height: 100px;
+}
+
+.card__author-name {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 135%;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.card__content-header {
+  font-family: 'EB Garamond', sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 135%;
+}
+
+.card__content-header-yellow {
+  font-family: 'EB Garamond', sans-serif;
+}
+
+.card__content-text {
+  font-size: 16px;
+  line-height: 135%;
+}

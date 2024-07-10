@@ -1,0 +1,28 @@
+.reasons {
+  padding: 40px 20px;
+  color: var(--dark-of-point-color);
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.reasons__header-wrapper {
+  display: block;
+  font-family: 'EB Garamond', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 115%;
+}
+
+.reasons__list {
+  list-style-position: inside;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  list-style-type: disc;
+}
